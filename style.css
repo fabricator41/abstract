@@ -78,24 +78,39 @@ nav div {
 
 .hero {
   background-color: #dadbf1;
+}
+
+.hero-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 115px;
+  max-width: 720px;
+  margin: 0 auto;
 }
 
-.hero-title {
+.hero .hero-title {
   font-size: 80px;
+  padding-bottom: 1rem;
 }
 
 .search-bar {
   width: 100%;
   border: 1px solid #dee2e6;
   padding: 1rem 1rem;
+  line-height: 32px;
 }
 
-.card-section {
+.cards {
   display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.item {
+  width: 50%;
 }
 
 .card-section a {
